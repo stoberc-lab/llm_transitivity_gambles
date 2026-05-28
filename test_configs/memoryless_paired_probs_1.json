@@ -1,0 +1,8 @@
+{
+    "memory": false,
+    "permutations": false,
+    "run_type": "probabilities",
+    "seed": -1,
+    "temperatures": "all",
+    "num_tokens": 1
+}

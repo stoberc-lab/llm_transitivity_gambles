@@ -1,0 +1,10 @@
+{
+    "memory": true,
+    "context_size": 0,
+    "prompt_memory": 10,
+    "permutations": false,
+    "run_type": "memory_probs",
+    "seed": -1,
+    "temperatures": [1],
+    "num_tokens": 1
+}

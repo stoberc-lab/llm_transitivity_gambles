@@ -1,0 +1,328 @@
+{
+    "option_keys": [
+        "1",
+        "2"
+    ],
+    "options": [
+        [
+            {
+                "choices": [
+                    {
+                        "money": "4.00",
+                        "fraction": "16/24",
+                        "percent": "66.67"
+                    },
+                    {
+                        "money": "4.50",
+                        "fraction": "12/24",
+                        "percent": "50.00"
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "choices": [
+                    {
+                        "money": "4.75",
+                        "fraction": "10/24",
+                        "percent": "41.67"
+                    },
+                    {
+                        "money": "5.0",
+                        "fraction": "8/24",
+                        "percent": "33.33"
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "choices": [
+                    {
+                        "money": "4.75",
+                        "fraction": "10/24",
+                        "percent": "41.67"
+                    },
+                    {
+                        "money": "4.25",
+                        "fraction": "14/24",
+                        "percent": "58.33"
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "choices": [
+                    {
+                        "money": "5.0",
+                        "fraction": "8/24",
+                        "percent": "33.33"
+                    },
+                    {
+                        "money": "4.50",
+                        "fraction": "12/24",
+                        "percent": "50.00"
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "choices": [
+                    {
+                        "money": "4.00",
+                        "fraction": "16/24",
+                        "percent": "66.67"
+                    },
+                    {
+                        "money": "4.25",
+                        "fraction": "14/24",
+                        "percent": "58.33"
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "choices": [
+                    {
+                        "money": "5.0",
+                        "fraction": "8/24",
+                        "percent": "33.33"
+                    },
+                    {
+                        "money": "4.00",
+                        "fraction": "16/24",
+                        "percent": "66.67"
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "choices": [
+                    {
+                        "money": "4.00",
+                        "fraction": "16/24",
+                        "percent": "66.67"
+                    },
+                    {
+                        "money": "4.75",
+                        "fraction": "10/24",
+                        "percent": "41.67"
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "choices": [
+                    {
+                        "money": "5.0",
+                        "fraction": "8/24",
+                        "percent": "33.33"
+                    },
+                    {
+                        "money": "4.25",
+                        "fraction": "14/24",
+                        "percent": "58.33"
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "choices": [
+                    {
+                        "money": "4.25",
+                        "fraction": "14/24",
+                        "percent": "58.33"
+                    },
+                    {
+                        "money": "5.0",
+                        "fraction": "8/24",
+                        "percent": "33.33"
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "choices": [
+                    {
+                        "money": "4.50",
+                        "fraction": "12/24",
+                        "percent": "50.00"
+                    },
+                    {
+                        "money": "4.75",
+                        "fraction": "10/24",
+                        "percent": "41.67"
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "choices": [
+                    {
+                        "money": "4.25",
+                        "fraction": "14/24",
+                        "percent": "58.33"
+                    },
+                    {
+                        "money": "4.00",
+                        "fraction": "16/24",
+                        "percent": "66.67"
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "choices": [
+                    {
+                        "money": "4.25",
+                        "fraction": "14/24",
+                        "percent": "58.33"
+                    },
+                    {
+                        "money": "4.75",
+                        "fraction": "10/24",
+                        "percent": "41.67"
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "choices": [
+                    {
+                        "money": "4.50",
+                        "fraction": "12/24",
+                        "percent": "50.00"
+                    },
+                    {
+                        "money": "4.00",
+                        "fraction": "16/24",
+                        "percent": "66.67"
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "choices": [
+                    {
+                        "money": "4.75",
+                        "fraction": "10/24",
+                        "percent": "41.67"
+                    },
+                    {
+                        "money": "4.50",
+                        "fraction": "12/24",
+                        "percent": "50.00"
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "choices": [
+                    {
+                        "money": "4.50",
+                        "fraction": "12/24",
+                        "percent": "50.00"
+                    },
+                    {
+                        "money": "4.25",
+                        "fraction": "14/24",
+                        "percent": "58.33"
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "choices": [
+                    {
+                        "money": "4.75",
+                        "fraction": "10/24",
+                        "percent": "41.67"
+                    },
+                    {
+                        "money": "4.00",
+                        "fraction": "16/24",
+                        "percent": "66.67"
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "choices": [
+                    {
+                        "money": "4.00",
+                        "fraction": "16/24",
+                        "percent": "66.67"
+                    },
+                    {
+                        "money": "5.0",
+                        "fraction": "8/24",
+                        "percent": "33.33"
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "choices": [
+                    {
+                        "money": "4.25",
+                        "fraction": "14/24",
+                        "percent": "58.33"
+                    },
+                    {
+                        "money": "4.50",
+                        "fraction": "12/24",
+                        "percent": "50.00"
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "choices": [
+                    {
+                        "money": "4.50",
+                        "fraction": "12/24",
+                        "percent": "50.00"
+                    },
+                    {
+                        "money": "5.0",
+                        "fraction": "8/24",
+                        "percent": "33.33"
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "choices": [
+                    {
+                        "money": "5.0",
+                        "fraction": "8/24",
+                        "percent": "33.33"
+                    },
+                    {
+                        "money": "4.75",
+                        "fraction": "10/24",
+                        "percent": "41.67"
+                    }
+                ]
+            }
+        ]
+    ]
+}

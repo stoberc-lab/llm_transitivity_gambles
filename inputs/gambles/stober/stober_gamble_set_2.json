@@ -1,0 +1,26 @@
+{
+    "option_keys": ["1", "2"],
+    "options": [
+        {
+            "money": "31.99",
+            "fraction": "7/24",
+            "percent": "29.17"
+        }, {
+            "money": "27.03",
+            "fraction": "8/24",
+            "percent": "33.33"
+        }, {
+            "money": "22.89",
+            "fraction": "9/24",
+            "percent": "37.5"
+        }, {
+            "money": "19.32",
+            "fraction": "10/24",
+            "percent": "41.67"
+        }, {
+            "money": "16.19",
+            "fraction": "11/24",
+            "percent": "45.83"
+        }
+    ]
+}

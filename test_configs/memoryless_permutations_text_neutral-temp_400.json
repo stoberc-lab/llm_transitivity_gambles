@@ -1,0 +1,7 @@
+{
+    "memory": false,
+    "permutations": true,
+    "run_type": "text",
+    "temperatures": [1.0],
+    "num_tokens": 400
+}
