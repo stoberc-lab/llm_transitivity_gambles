@@ -13,49 +13,51 @@ R scripts for processing formatted analysis data into results using the transiti
 
 #### inputs
 
-TEst input data is laoded from this directory by default if no path is specified. These files and sub-directories provide the prompt templates and values for the data to be passed to the LLMs in the test runs.
+Test input data is laoded from this directory by default if no path is specified. These files and sub-directories provide the prompt templates and values for the data to be passed to the LLMs in the test runs.
 
 #### test_configs
 
 Configuration files are loaded from here by default if no path is specified. These files can be used to set up the parameters of a test such as memory, seeds, temperatures, etc.
 
-### main.py
 
-CEntral file to begin a test. Takes parameters from the command line to determine what to process, and then begins the test.
+### Scripts 
+#### main.py
 
-### benchmark_logger.py
+The entrypoint file to begin a test. Takes parameters from the command line to determine what to process, and then begins the test.
+
+#### benchmark_logger.py
 
 Handles console and filesystem logging of the processing occurring during each test run.
 
-### benchmark_runner.py
+#### benchmark_runner.py
 
 Called from main.py to load data and execute the test process.
 
-### model_handler.py
+#### model_handler.py
 
 Handles loading and interfacing with the LLMs using Transformers, pytorch, and custom functions to extract needed responses.
 
-### prompt.py
+#### prompt.py
 
 Object class for storing data and responses about a specific item from the prompt template and variable combinations.
 
-### generate_gambles_memoryfull_permutation_sets.py
+#### generate_gambles_memoryfull_permutation_sets.py
 
 Simple script to generate randomized orderings of prompts for memory trial testing.
 
-### memory_handler.py
+#### memory_handler.py
 
 Handles data for contextual memory condition.
 
-### test_handler.py
+#### test_handler.py
 
 Loads test and prompt data.
 
-### output_handler.py
+#### output_handler.py
 
 Outputs data from LLM prompt responses to the configured output directory.
 
-### process_*.py
+#### process_*.py
 
 Converts .out files to formatted csvs for analysis.
 
