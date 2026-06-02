@@ -5,27 +5,59 @@ Three conditions are manipulated: question format, generation temperature, and c
 
 ## Repository Structure 
 
-[NEED HELP WITH IT JAMES] 
-what I think it is : 
-main.py : run one model for one config 
-benchmark_runner.py : promtps, temperature generation, and writes output
-model_handler.py : loading first-token probability extraction (need to take out text?) 
-prompt.py : prompt distributing? 
-generate_gambles_memoryfull_permutation_sets.py : building the 10 memory orderings 
-memory_handler.py : handling contextual memory condition 
-test_handler.py : loading gamble set and seeds
-output_handler.py : for specific prompt output result files 
-process_results_probs.py : converting .out files to per format choice probabilities csv 
-process_memory_results_probs.py : processing the contextual memory results
+### Directories
 
-Input: the 5 gamble sets and according prompt (presentation format) 
-test_configs : the JSON run configs 
-analysis: the transitivity check codes for each transitive model. 
+#### analysis
 
-not really sure what benchmark_logger is
+R scripts for processing formatted analysis data into results using the transitivity checks for each transitive model.
 
-Things to take out?: process_results_text / process_memory_results_text / process_results_full-text 
+#### inputs
 
+TEst input data is laoded from this directory by default if no path is specified. These files and sub-directories provide the prompt templates and values for the data to be passed to the LLMs in the test runs.
+
+#### test_configs
+
+Configuration files are loaded from here by default if no path is specified. These files can be used to set up the parameters of a test such as memory, seeds, temperatures, etc.
+
+### main.py
+
+CEntral file to begin a test. Takes parameters from the command line to determine what to process, and then begins the test.
+
+### benchmark_logger.py
+
+Handles console and filesystem logging of the processing occurring during each test run.
+
+### benchmark_runner.py
+
+Called from main.py to load data and execute the test process.
+
+### model_handler.py
+
+Handles loading and interfacing with the LLMs using Transformers, pytorch, and custom functions to extract needed responses.
+
+### prompt.py
+
+Object class for storing data and responses about a specific item from the prompt template and variable combinations.
+
+### generate_gambles_memoryfull_permutation_sets.py
+
+Simple script to generate randomized orderings of prompts for memory trial testing.
+
+### memory_handler.py
+
+Handles data for contextual memory condition.
+
+### test_handler.py
+
+Loads test and prompt data.
+
+### output_handler.py
+
+Outputs data from LLM prompt responses to the configured output directory.
+
+### process_*.py
+
+Converts .out files to formatted csvs for analysis.
 
 ## Environment 
 
