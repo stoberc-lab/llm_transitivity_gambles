@@ -43,4 +43,13 @@ Model names and reivision IDs for all 20 models are listed in Appendix of the pa
 
 For the memory condition, first generate the ordered presentation sets, then run main.py with benchmark gambles_memoryfull and a memoryfull config. 
 
-### 2. 
+### 2. Aggregate to choice probabilities 
+
+The process_results_probs.py reads the .out files and writes one csv per question format, with one column per gamble pair (A_B, B_A, A_C, ...). Each cell is normalized probability preferring the first listed gamble. The output is written to <benchmakr>/<config_name>/<format>.csv. 
+
+### 3. Test Transitivity 
+The scripts in analysis/ apply the four transitivity models. Each file defines a function (test_wst, test_mct, ...) that takes a data frame of choice probabilities and returns it with per-triad adherence result and a total adherence score. 
+
+Before running the analysis, the gamble pairs are aggregated to control for positional bias: aggregated probability for a pair is teh mean of the first-positioned probability cell and one minus its reverse (P(A_B) + (1 - P(B_A))/2). This single value is what the function evaluates. 
+
+A score of 1 means that from all 10 triads in a certain gamble set met the condition; 0 means at least 1 failed. 
