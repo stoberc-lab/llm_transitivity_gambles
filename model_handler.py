@@ -214,7 +214,6 @@ class ModelHandler:
         context_size: int = None,
         prompt_memory: int = None,
     ):
-        print("memory_probs!!!")
         if max_new_tokens > 1:
             raise (
                 NotImplementedError(
@@ -477,7 +476,6 @@ class ModelHandler:
                             continue
 
                         probs = self._single_token_prob(prompt, temperature, memory=memory_handler.get_memory())
-                        # probs = {26964: ('Хронологи', 0.7629088596776415), 17835: ('Станов', 0.02414445101790097)}
 
                         # Convert the unstructured response text back into the structured format
                         new_memory = deepcopy(prompt.prompt)
